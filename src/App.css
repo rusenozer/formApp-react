@@ -1,0 +1,12 @@
+.App{
+  display: flex;
+  height: 100vh;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.App+div{
+  display: flex;
+  flex-direction: column;
+}
